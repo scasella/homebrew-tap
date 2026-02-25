@@ -1,6 +1,6 @@
 cask "safarimarkdown" do
   version "1.0.0"
-  sha256 "3e1bf30d15f2b9713f4dfa86cd00a412aee329f61e0e6be9977d058a959d8b3b"
+  sha256 "8474fbed534ec8e48efd3cd17d69f5ebc6dbc103844b13e032dcbfac26f25807"
 
   url "https://github.com/scasella/SafariMarkdown/releases/download/v#{version}/SafariMarkdown-#{version}.zip"
   name "SafariMarkdown"
@@ -8,9 +8,4 @@ cask "safarimarkdown" do
   homepage "https://github.com/scasella/SafariMarkdown"
 
   app "SafariMarkdown.app"
-
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/SafariMarkdown.app"]
-  end
 end
