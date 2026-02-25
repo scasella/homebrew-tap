@@ -1,6 +1,6 @@
 cask "safarimarkdown" do
   version "1.0.0"
-  sha256 "319ea32be3c86f84ed4ce5dea26b28a7a58b6cf875ac21879b1183f5fc807887"
+  sha256 "3e1bf30d15f2b9713f4dfa86cd00a412aee329f61e0e6be9977d058a959d8b3b"
 
   url "https://github.com/scasella/SafariMarkdown/releases/download/v#{version}/SafariMarkdown-#{version}.zip"
   name "SafariMarkdown"
