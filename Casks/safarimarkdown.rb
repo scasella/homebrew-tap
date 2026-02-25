@@ -8,4 +8,9 @@ cask "safarimarkdown" do
   homepage "https://github.com/scasella/SafariMarkdown"
 
   app "SafariMarkdown.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/SafariMarkdown.app"]
+  end
 end
