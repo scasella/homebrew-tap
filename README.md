@@ -15,6 +15,7 @@ brew install --cask clipdrop
 brew install --cask pasteforge
 brew install --cask safarimarkdown
 brew install --cask tabpilot
+brew install --cask screensweep
 ```
 
 ## Available Casks
@@ -25,8 +26,9 @@ brew install --cask tabpilot
 | `pasteforge` | Clipboard text transformer — 37 one-click transforms (case, encode, format, hash, stats) | [PasteForge](https://github.com/scasella/PasteForge) |
 | `safarimarkdown` | Convert the current Safari tab to clean Markdown via AI streaming | [SafariMarkdown](https://github.com/scasella/SafariMarkdown) |
 | `tabpilot` | AI-powered Safari tab command center — grouping, staleness, duplicates, NL queries | [TabPilot](https://github.com/scasella/TabPilot) |
+| `screensweep` | Find, review, and clean up macOS screenshots in bulk | [ScreenSweep](https://github.com/scasella/ScreenSweep) |
 
 ## Requirements
 
-- macOS 14 (Sonoma) or later
+- macOS 14 (Sonoma) or later (ScreenSweep requires macOS 15)
 - Apple Silicon or Intel Mac
